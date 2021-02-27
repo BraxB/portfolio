@@ -20,8 +20,17 @@ main {
     margin: 2%;
 }
 
+/* set a max height for cards */
 .card img {
-    height: 25em;
+    max-width: 100%;
+    height: auto;
 }
 
+/* set a top margin for cards */
+.card {
+    margin-top: 2%;
+}
 
+.row {
+    height: 20em;
+}
