@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.dropdown {
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+/* set body text to white and background to dark blue */
+body {
+    color:white;
+    background-color: rgb(5, 3, 12);
+}
+
+/* set a margin across entire body */
+main {
+    margin: 2%;
+}
+
+.card img {
+    height: 25em;
+}
+
+
