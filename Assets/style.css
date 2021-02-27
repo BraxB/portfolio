@@ -51,8 +51,9 @@ main {
     object-fit: contain;
 }
 
-.card a:hover {
+.card:hover a img {
     opacity: .75;
+    transform: scale(1.5%);
 }
 
 /* set the most recent project to be slightly larger than other cards */
@@ -69,5 +70,6 @@ footer .col-12 .col-12 {
     margin-right: 2%;
     display: flex;
     justify-content:space-around;
-    align-content:flex-start; 
-}
+    align-content:flex-start;
+    text-align: center;
+} 
