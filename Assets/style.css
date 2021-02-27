@@ -4,13 +4,18 @@ html,body
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
 }
 
 .navbar {
     display: flex;
     align-content: flex-start;
     justify-content: flex-start;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    font-size: 2em;
+    line-height: 80%
 }
 
 .dropdown {
@@ -22,6 +27,7 @@ body {
     color:white;
     background: url(backdrop.jpg) top right no-repeat;
     background-attachment: fixed;
+    background-size: fill;
     background-position: top;
 }
 
@@ -30,35 +36,73 @@ main {
     margin: 2%;
 }
 
+/* positioning the landing section and items */
 #landing {
-    height: 40rem;
     padding: 1%;
+    margin-bottom: 0%;
+    height: 40rem;
+}
+
+#landing .col-6 {
+    position: relative;
+}
+
+.container {
     display: flex;
-    align-content: flex-start;
+    position: absolute; 
+    bottom:0;
+    background-color: rgba(85, 85, 85, 0.40);
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.container h2 {
+    line-height: 4rem;
+}
+
+#brax {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#landing figure {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute; 
+    bottom:0;
+}
+
+/* set blending mode for my picture and max width/height */
+#landing .col-6 img {
+    mix-blend-mode: screen;
+    max-width: 100%;
+    max-height: 38rem;
 }
 
 /* set a top margin and height for cards and any overflow on cards to be hidden */
 .card {
+    object-fit: contain;
     overflow: hidden;
     margin-top: 2%;
     height:20rem;
 }
 
 /* set dimensions for card image to fit parent */
-img {
+.card img {
     min-height: 30rem;
     min-width: 100%;
 }
 
 .card:hover a img {
     opacity: .75;
-    transform: scale(1.25);
+    transform: scale(1.15);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* set the most recent project to be slightly larger than other cards */
 #mostRecent {
     height: 30rem;
+    margin-top: 0%;
 }
 
 footer h2 {
@@ -69,7 +113,18 @@ footer .col-12 .col-12 {
     margin-left: 2%;
     margin-right: 2%;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-content:flex-start;
-    text-align: center;
 } 
+
+/* set background and landing area to resize for better mobile experience */
+@media only screen and (max-width: 800px) {
+    #landing {
+      height: 30rem;
+    }
+
+    body {
+        background-size: 175%;
+        background-color: black;
+    }
+  }
