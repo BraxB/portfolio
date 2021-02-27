@@ -46,7 +46,9 @@ main {
 
 /* set dimensions for card image to fit parent entirely */
 .card a img {
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .card a:hover {
