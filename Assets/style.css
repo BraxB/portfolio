@@ -34,26 +34,26 @@ main {
     height: 40rem;
     padding: 1%;
     display: flex;
-    align-content: flex-end;
+    align-content: flex-start;
 }
 
-/* set a top margin and height for cards */
+/* set a top margin and height for cards and any overflow on cards to be hidden */
 .card {
     overflow: hidden;
     margin-top: 2%;
     height:20rem;
 }
 
-/* set dimensions for card image to fit parent entirely */
-.card a img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
+/* set dimensions for card image to fit parent */
+img {
+    min-height: 30rem;
+    min-width: 100%;
 }
 
 .card:hover a img {
     opacity: .75;
-    transform: scale(1.5%);
+    transform: scale(1.25);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* set the most recent project to be slightly larger than other cards */
