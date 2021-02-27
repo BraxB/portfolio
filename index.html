@@ -18,33 +18,38 @@
               Menu
             </a>
           
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="#">About</a>
-              <a class="dropdown-item" href="#">Work</a>
-              <a class="dropdown-item" href="#">Contact</a>
-            </div>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#about">About</a></li>
+                <li><a class="dropdown-item" href="#mostRecent">Work</a></li>
+                <li><a class="dropdown-item" href="#contact">Contact</a></li>  
+            </ul>
         </div>
     </nav>
-    <div class="jumbotron">
-        <h1>Brax</h1>
-        <p class="lead">The Future is Now, Old Man</p>
-    </div>
     <main>
-        <section>
-            <h2>About</h2>
-            <p>
-                Et ullamco et pariatur sint id in excepteur eiusmod cupidatat laborum. Ut Lorem magna reprehenderit laboris consequat fugiat veniam id proident aute. Magna mollit elit aliquip excepteur. Occaecat consequat ut proident laborum Lorem ut nulla aliquip dolore adipisicing esse do ex dolore. Nisi id deserunt eiusmod exercitation incididunt. Officia ipsum qui voluptate do pariatur proident aliquip do. Tempor ad laboris dolor minim.
-            </p>
-            <figure>
-                <img src="#placeholder" alt="some text for an alt"></img>
-            </figure>
+        <section class="row" id="landing">
+            <div class="col-6 gx-4">
+                <div id="about">
+                    <h2>About</h2>
+                    <hr>
+                    <p>
+                        Hello, my name is Braxton. I am a developer from Atlanta, GA. I am currently studying through Georgia Tech's bootcamp. In my free time I enjoy playing music (I play bass guitar, guitar, and synthesizer), running, and playing with my 2 cats, Mittens and JoJo. I also love horror stories and my favorite author is HP Lovecraft.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6">
+                <figure>
+                    <img src="#placeholder" alt="some text for an alt"></img>
+                </figure>
+            </div>
         </section>
         <div class="container-fluid">
-            <div class="col col-xs-12">
-                <div class="card bg-dark text-white">
-                    <img src="Assets/surf.jpg" class="card-img" alt="Ocean depths">
+            <div class="col-12">
+                <div class="card bg-dark text-white" id="mostRecent">
+                    <a class="stretched-link" href="">
+                        <img src="Assets/surf.jpg" class="card-img" alt="Ocean depths">
+                    </a>
                     <div class="card-img-overlay">
-                        <h3 class="card-title">Surf Report</h5>
+                        <h3 class="card-title">Surf Report</h3>
                         <p class="card-text">MERN Stack</p>
                     </div>
                 </div>
@@ -52,35 +57,62 @@
             <div class="row">
                 <div class="col-12 col-md-6">
                     <div class="card bg-dark text-white">
-                        <img src="Assets/surf.jpg" class="card-img" alt="Ocean depths">
+                        <a class="stretched-link" href="">
+                            <img src="Assets/LED-Wall.png" class="card-img" alt="led wall">
+                        </a>
                         <div class="card-img-overlay">
-                            <h3 class="card-title">Surf Report</h5>
+                            <h3 class="card-title">LED Wall</h3>
+                            <p class="card-text">Node/IoT</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card bg-dark text-white">
+                        <img src="Assets/Calculator.JPG" class="card-img" alt="Ocean depths">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title">Calculator</h3>
+                            <p class="card-text">React/JavaScript/CSS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card bg-dark text-white">
+                        <img src="Assets/pastel.jpg" class="card-img" alt="Ocean depths">
+                        <div class="card-img-overlay">
+                            <h3 class="card-title">Pastel Puzzles</h3>
                             <p class="card-text">MERN Stack</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <div class="card bg-dark text-white">
-                        <img src="Assets/surf.jpg" class="card-img" alt="Ocean depths">
+                        <img src="Assets/running.jpg" class="card-img" alt="Ocean depths">
                         <div class="card-img-overlay">
-                            <h3 class="card-title">Surf Report</h5>
-                            <p class="card-text">MERN Stack</p>
+                            <h3 class="card-title">Run Buddy</h3>
+                            <p class="card-text">HTML/CSS</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <div class="row>"
-            <div class="col-12">
-                <section class="contact">
-                    <h2>Contact</h2>
-                    <a href="tel:2709967215" class="phone">Phone</a>
-                    <a href="mailto: braxb92@gmail.com" class="email">Email</a>
-                    <a href="https://www.linkedin.com/in/braxtonbodenhamer/" class="social">LinkedIn</a>
-                </section>
-            </div>
-        </div>
+        </section>      
     </main>
+
+    <footer class="bg-dark text-center text-lg-start" id="contact">
+        <div class="row">
+            <div class="col-12">
+                <h2>Contact</h2>
+                    <div class="col-12" id="contactLinks">
+                        <a href="tel:2709967215" class="phone">Phone</a>
+                        <a href="mailto: braxb92@gmail.com" class="email">Email</a>
+                        <a href="https://www.linkedin.com/in/braxtonbodenhamer/" class="social">LinkedIn</a>
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                        <p>© 2021 Braxton Bodenhamer</p>
+                    </div>
+                </div>
+        </div>        
+    </footer>  
 
 </body>
 </html>

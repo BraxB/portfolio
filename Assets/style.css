@@ -1,3 +1,12 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 .navbar {
     display: flex;
     align-content: flex-start;
@@ -5,14 +14,15 @@
 }
 
 .dropdown {
-    margin-right: 4%;
-    margin-left: 4%;
+    margin-left: 2%;
 }
 
 /* set body text to white and background to dark blue */
 body {
     color:white;
-    background-color: rgb(5, 3, 12);
+    background: url(backdrop.jpg) top right no-repeat;
+    background-attachment: fixed;
+    background-position: top;
 }
 
 /* set a margin across entire body */
@@ -20,17 +30,42 @@ main {
     margin: 2%;
 }
 
-/* set a max height for cards */
-.card img {
-    max-width: 100%;
-    height: auto;
+#landing {
+    height: 40rem;
+    padding: 1%;
+    display: flex;
+    align-content: flex-end;
 }
 
-/* set a top margin for cards */
+/* set a top margin and height for cards */
 .card {
+    overflow: hidden;
     margin-top: 2%;
+    height:20rem;
 }
 
-.row {
-    height: 20em;
+/* set dimensions for card image to fit parent entirely */
+.card a img {
+    object-fit: cover;
+}
+
+.card a:hover {
+    opacity: .75;
+}
+
+/* set the most recent project to be slightly larger than other cards */
+#mostRecent {
+    height: 30rem;
+}
+
+footer h2 {
+    text-align: center;
+}
+
+footer .col-12 .col-12 {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content:space-around;
+    align-content:flex-start; 
 }
