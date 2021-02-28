@@ -6,6 +6,10 @@ html,body
     padding: 0px;
 }
 
+h1, h2, h3 {
+    font-family: 'Bungee', cursive;
+}
+
 .navbar {
     display: flex;
     align-content: flex-start;
@@ -79,6 +83,7 @@ main {
     max-height: 38rem;
 }
 
+/* the following blocks control the cards and layout of the work section */
 /* set a top margin and height for cards and any overflow on cards to be hidden */
 .card {
     object-fit: contain;
@@ -93,6 +98,7 @@ main {
     min-width: 100%;
 }
 
+/* created a hover state for each card */
 .card:hover a img {
     opacity: .75;
     transform: scale(1.15);
@@ -105,16 +111,29 @@ main {
     margin-top: 0%;
 }
 
-footer h2 {
-    text-align: center;
+/* styling and positioning the footer elements */
+/* the following block prevents margin issues experienced with the footer not spanning the full page */
+footer {
+    overflow-x: hidden;
 }
 
-footer .col-12 .col-12 {
-    margin-left: 2%;
-    margin-right: 2%;
+/* this centers the very last line of the page as well as the contact header */
+footer .col-12 {
     display: flex;
-    justify-content:space-evenly;
-    align-content:flex-start;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+footer a {
+    font-family: 'Bungee', cursive;
+    font-weight: 200;
+    color:rgb(132, 117, 200);
+}
+
+/* spaces the contact links */
+footer .col-4 {
+    display: flex;
+    justify-content: space-evenly;
 } 
 
 /* set background and landing area to resize for better mobile experience */
