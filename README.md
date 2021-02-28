@@ -6,7 +6,7 @@ This repository (Portfolio) relates to my portfolio website made for the 2nd wee
 
 In later versions, I would like to enhance the navigation of the page and further tweak how some images display when the viewport resizes as well as add live links to the work cards.
 
-![Screenshot of final product](https://github.com/BraxB/portfolio/blob/master/Assets/Screen Shot 2021-02-27 at 22.53.10-fullpage.png?raw=true)
+![Screenshot of final product](https://github.com/BraxB/portfolio/blob/master/Assets/screenshot.png?raw=true)
 
 ## User Story
 
