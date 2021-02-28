@@ -2,11 +2,11 @@
 
 ## The Repository
 
-This repository (Portfolio relates to my portfolio website made for the 2nd week of the GT Coding Bootcamp and in later versions for professional use. Instructions in following user story section below were included. Links through cards are not currently live, but functionality and hover state are set.
+This repository (Portfolio) relates to my portfolio website made for the 2nd week of the GT Coding Bootcamp and in later versions for professional use. Instructions in following user story section below were included. Links through cards are not currently live, but functionality and hover state are set.
 
 In later versions, I would like to enhance the navigation of the page and further tweak how some images display when the viewport resizes as well as add live links to the work cards.
 
-![Screenshot of final product](https://github.com/BraxB/homework-1/blob/main/Assets/screenshot.png?raw=true)
+![Screenshot of final product](https://github.com/BraxB/portfolio/blob/master/Assets/Screen Shot 2021-02-27 at 22.53.10-fullpage.png?raw=true)
 
 ## User Story
 
