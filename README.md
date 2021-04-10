@@ -4,7 +4,7 @@
 
 This repository (Portfolio) relates to my portfolio website made for the 2nd week of the GT Coding Bootcamp and in later versions for professional use. Instructions in following user story section below were included. Links through cards are not currently live, but functionality and hover state are set.
 
-In later versions, I would like to enhance the navigation of the page and further tweak how some images display when the viewport resizes as well as add live links to the work cards.
+In this version 2 I have fixed some of the styling errors I had made in the first version. The site now functions much smoother on mobile devices as well and I fixed some issues with distorted images.
 
 ![Screenshot of final product](https://github.com/BraxB/portfolio/blob/master/Assets/screenshot.png?raw=true)
 
@@ -15,7 +15,6 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
-
 
 ## Acceptance Criteria
 
@@ -42,7 +41,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 [Repository Link](https://github.com/BraxB/portfolio)  
 [Deployed Application](https://braxb.github.io/portfolio/)
 
-
 ## Licensing Criteria
-- - -
+
+---
+
 © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
