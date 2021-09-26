@@ -2,9 +2,11 @@
 
 ## The Repository
 
-This repository (Portfolio) relates to my portfolio website made for the 2nd week of the GT Coding Bootcamp and in later versions for professional use. Instructions in following user story section below were included. Links through cards are not currently live, but functionality and hover state are set.
+This repository (Portfolio) relates to my portfolio website. Instructions in following user story section below were included. 
 
 In this version 2 I have fixed some of the styling errors I had made in the first version. The site now functions much smoother on mobile devices as well and I fixed some issues with distorted images.
+
+Technologies used include HTML, CSS, and bootstrap. There is another version of the application using React, however I decided I have decided to use this version instead as the design of the portfolio was simple enough that it did not necessarily need the introduction of React.
 
 ![Screenshot of final product](https://github.com/BraxB/portfolio/blob/master/Assets/screenshot.png?raw=true)
 
